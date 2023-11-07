@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets\usama-icon.png">
+    <title>Faizan Ali</title>
+    <style type="text/css">
+        body {
+            font-family: verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(0, 115, 255, 0.154);
+        }
+
+        header {
+            background-color: #5893d9;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        table {
+            font-family: Monaco, monospace;
+            width: 48%;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+
+        }
+
+        table,
+        td {
+            border: 2px solid #5893d9;
+        }
+
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            text-align: center;
+            background-color: #5893d9;
+            color: white;
+        }
+
+
+
+        .bio,
+        .aim {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 20px 20% 20px 20%;
+
+
+
+        }
+
+        .education {
+            text-align: center;
+            margin: 20px 20px 20px 20px;
+        }
+
+        .container {
+            display: flex;
+            align-items: stretch;
+            color: white;
+
+        }
+
+        .left-column,
+        .middle-column,
+        .right-column {
+            padding: 20px;
+            margin: 10px;
+            background-color: #5893d9;
+            border-radius: 25px;
+        }
+
+        .left-column {
+            width: 25%;
+        }
+
+        .middle-column {
+            width: 50%;
+        }
+
+        .right-column {
+            width: 25%;
+        }
+
+        .profile-picture {
+            float: right;
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        .country {
+            border: 3px solid #5893d9;
+            padding: 25px;
+            margin: 20px;
+            border-radius: 95px;
+            width: 75%;
+        }
+
+        .chatus {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            z-index: 1000;
+        }
+
+        footer {
+            background-color: #5893d9;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+
+            width: 100%;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        /* Media Queries */
+
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .left-column,
+            .middle-column,
+            .right-column {
+                width: 80%;
+            }
+
+            table {
+                font-size: 12px;
+                margin-left: auto;
+                margin-right: auto;
+                width: auto;
+            }
+
+            .bio,
+            .aim {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin: 5px 5% 5px 5%;
+                padding: 10px;
+
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Faizan Ali</h1>
+    </header>
+
+    <div class="bio">
+        <img src="face.png" alt="Profile Picture" class="profile-picture">
+        <p>Hi, i'm Faizan Ai and I'm skilled in Blender, creating 3D models and Enviorments for a year. I also have
+            experience in
+            C++ programming, focusing on streamlining 3D design workflows. Excited about combining creativity and
+            technology!</p>
+    </div>
+    <div class="education">
+        <h3>Educational History</h3>
+        <table class="table">
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+
+            </tr>
+            <tr>
+                <td>BS in Computer Science</td>
+                <td>University of Sialkot, Sialkot</td>
+                <td>2021-2024</td>
+
+            </tr>
+            <tr>
+                <td>Intermediate</td>
+                <td>Govt. Degree College Pasrur</td>
+                <td>2017-2019</td>
+
+            </tr>
+            <tr>
+                <td>Matric</td>
+                <td>Govt. High School No.1 Pasrur</td>
+                <td>2015-2017</td>
+
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+        <div class="left-column">
+            <h3>Professional Skills</h3>
+            <ul>
+                <li>3D Modeling</li>
+                <li>Video Editing</li>
+                <li>Programming Languages (C, C++, C#)</li>
+            </ul>
+        </div>
+
+        <div class="middle-column">
+
+            <section>
+                <h3>Hobbies</h3>
+                <ol>
+                    <li>Cricket</li>
+                    <li>Video Games</li>
+                    <li>Movie Enthusiast</li>
+            </section>
+
+            <section>
+                <h3>Places i visited in Pakistan</h3>
+                <ol>
+                    <li>Minar-e-Pakistan</li>
+                    <li>Islamabad</li>
+                    <li>Kartarpur</li>
+                    <li>Lahore Fort</li>
+                </ol>
+            </section>
+        </div>
+
+        <div class="right-column">
+            <h3>Projects</h3>
+            <ul>
+                <li>1.Dying world-Fall Of the Civiilzation</li>
+                <li>2.Library Management System</li>
+                <li>3.Database Management System</li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="aim">
+        <div class="country">
+            <h3>Life Ambition</h3>
+            <p>My life's ambition revolves around being a visionary 3D artist and game developer, where I meld artistic
+                creativity with technical expertise, shaping extraordinary virtual worlds and immersive gameplay
+                experiences
+                for the growth of the IT sector in my country.</p>
+        </div>
+
+        <div class="country">
+            <h3>What you did for your country?</h3>
+            <p>Currently a dedicated student, I aspire to become a 3D artist and game developer, aiming to enhance my
+                country's economy with creative innovation. While opportunities are limited during my studies, I am
+                committed to leveraging my skills post-graduation to contribute significantly to the gaming industry
+                and, in
+                turn, bolster the economic landscape of my nation. </p>
+        </div>
+
+        <div class="country">
+            <h3>What do you want to do for your country?</h3>
+            <p>I aspire to contribute to my country's economic growth as a 3D artist and game developer.My goal is to
+                utilize my skills and creativity
+                post-graduation to create innovative gaming experiences. By doing so, I aim to not only enrich the
+                entertainment sector but also contribute to the overall development and prosperity of my nation.</p>
+        </div>
+
+    </div>
+    <div class="chatus">
+        <a href="https://wa.me/+923026290356" target="_blank"><img src="icons\icons8-whatsapp-48.png"
+                alt="WhatsApp"></a>
+    </div>
+
+    <footer>
+        <h3>Faizan Ali</h3>
+        <p>20101002-024@gmail.com</p>
+        <div class="social-icons">
+            <a href="" target="_blank"><img src="icons\icons8-facebook-48.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/modeling.wonders" target="_blank"><img src="icons\icons8-instagram-48.png"
+                    alt="Instagram"></a>
+            <a href=""
+                target="_blank"><img src="icons\icons8-linkedin-48.png" alt="LinkedIn"></a>
+            <a href="https://github.com/faizan211228" target="_blank"><img src="icons\icons8-github-48.png" alt="GitHub"></a>
+            <a href="https://wa.me/+923026290356" target="_blank"><img src="icons\icons8-whatsapp-48.png"
+                    alt="WhatsApp"></a>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
